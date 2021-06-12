@@ -1,9 +1,15 @@
+import '@fontsource/roboto';
 import './App.css';
+import Textfield from './Textfield';
+import Header from './Header';
+import Todo from './Todo';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Let's build a todo app!</h1>
+    <div>
+      <Header />
+      <Textfield />
+      <Todo />
     </div>
   );
 }

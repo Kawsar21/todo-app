@@ -1,0 +1,12 @@
+.button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#standard-basic {
+  width: 550px;
+}
+
+.button-primary {
+  margin-top: 5px !important;
+}
